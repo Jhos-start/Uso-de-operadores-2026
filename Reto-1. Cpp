@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    cin >> a >> b;
+    bool es mayor = (a > b);
+    
+    int mayor = a * es mayor + b * (1 - es mayor);
+    int menor = b * es mayor + a * (1 - es mayor);
+    
+    cout << "es mayor " << mayor;
+    cout << "es menor " << menor;
+  Return 0;
+}
